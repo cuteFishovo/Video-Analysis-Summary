@@ -1,0 +1,364 @@
+﻿{
+  "menu": {
+    "title": [
+      "  VIDEO ANALYSIS TOOL",
+      "  视频分析工具",
+      "  動画分析ツール",
+      "  비디오 분석 도구",
+      "  HERRAMIENTA DE ANALISIS DE VIDEO",
+      "  OUTIL D'ANALYSE VIDEO"
+    ],
+    "opt_setup": [
+      "[1] Setup Environment",
+      "[1] 安装环境",
+      "[1] 環境セットアップ",
+      "[1] 환경 설치",
+      "[1] Instalar Entorno",
+      "[1] Installer l'environnement"
+    ],
+    "opt_run": [
+      "[2] Run Analysis",
+      "[2] 运行分析",
+      "[2] 分析実行",
+      "[2] 분석 실행",
+      "[2] Ejecutar Analisis",
+      "[2] Lancer l'analyse"
+    ],
+    "opt_lang": [
+      "[3] Switch Language",
+      "[3] 切换语言",
+      "[3] 言語切替",
+      "[3] 언어 변경",
+      "[3] Cambiar Idioma",
+      "[3] Changer la langue"
+    ],
+    "opt_exit": [
+      "[0] Exit",
+      "[0] 退出",
+      "[0] 終了",
+      "[0] 종료",
+      "[0] Salir",
+      "[0] Quitter"
+    ],
+    "prompt": [
+      "Select > ",
+      "请选择 > ",
+      "選択 > ",
+      "선택 > ",
+      "Seleccionar > ",
+      "Choisir > "
+    ],
+    "invalid": [
+      "Invalid option!",
+      "无效选项！",
+      "無効な選択！",
+      "잘못된 선택!",
+      "Opcion invalida!",
+      "Option invalide !"
+    ]
+  },
+  "lang": {
+    "title": [
+      "  Select Language",
+      "  选择语言",
+      "  言語選択",
+      "  언어 선택",
+      "  Seleccionar Idioma",
+      "  Choisir la langue"
+    ],
+    "opt1": [
+      "[1] English",
+      "[1] 英语",
+      "[1] 英語",
+      "[1] 영어",
+      "[1] Ingles",
+      "[1] Anglais"
+    ],
+    "opt2": [
+      "[2] Chinese",
+      "[2] 中文",
+      "[2] 中国語",
+      "[2] 중국어",
+      "[2] Chino",
+      "[2] Chinois"
+    ],
+    "opt3": [
+      "[3] Japanese",
+      "[3] 日本語",
+      "[3] 日本語",
+      "[3] 일본어",
+      "[3] Japones",
+      "[3] Japonais"
+    ],
+    "opt4": [
+      "[4] Korean",
+      "[4] 한국어",
+      "[4] 韓国語",
+      "[4] 한국어",
+      "[4] Coreano",
+      "[4] Coreen"
+    ],
+    "opt5": [
+      "[5] Spanish",
+      "[5] Espanol",
+      "[5] スペイン語",
+      "[5] 스페인어",
+      "[5] Espanol",
+      "[5] Espagnol"
+    ],
+    "opt6": [
+      "[6] French",
+      "[6] Francais",
+      "[6] フランス語",
+      "[6] 프랑스어",
+      "[6] Frances",
+      "[6] Francais"
+    ],
+    "saved": [
+      "Language saved. Restart to apply.",
+      "语言已保存，重启生效。",
+      "言語を保存しました。再起動で適用。",
+      "언어 저장 완료. 재시작 시 적용.",
+      "Idioma guardado. Reinicie.",
+      "Langue enregistree. Redemarrez."
+    ]
+  },
+  "status": {
+    "running_setup": [
+      "Running setup...",
+      "正在安装环境...",
+      "セットアップ実行中...",
+      "설치 실행 중...",
+      "Ejecutando instalacion...",
+      "Installation en cours..."
+    ],
+    "running_run": [
+      "Running analysis...",
+      "正在分析...",
+      "分析実行中...",
+      "분석 실행 중...",
+      "Ejecutando analisis...",
+      "Analyse en cours..."
+    ],
+    "done_setup": [
+      "Setup done! Exit code: ",
+      "安装完成！退出码: ",
+      "セットアップ完了！コード: ",
+      "설치 완료! 코드: ",
+      "Instalacion completa! Codigo: ",
+      "Installation terminee ! Code : "
+    ],
+    "done_run": [
+      "Analysis done! Exit code: ",
+      "分析完成！退出码: ",
+      "分析完了！コード: ",
+      "분석 완료! 코드: ",
+      "Analisis completo! Codigo: ",
+      "Analyse terminee ! Code : "
+    ],
+    "bye": [
+      "Goodbye!",
+      "再见！",
+      "さようなら！",
+      "안녕히 가세요!",
+      "Adios!",
+      "Au revoir !"
+    ]
+  },
+  "setup": {
+    "title": [
+      "  Video Analysis Tool - Setup",
+      "  视频分析工具 - 环境安装",
+      "  動画分析ツール - セットアップ",
+      "  비디오 분석 도구 - 설치",
+      "  Herramienta de Analisis de Video - Instalacion",
+      "  Outil d'Analyse Video - Installation"
+    ],
+    "py_check": [
+      "[0/3] Checking Python...",
+      "[0/3] 检查 Python...",
+      "[0/3] Pythonチェック中...",
+      "[0/3] Python 확인 중...",
+      "[0/3] Verificando Python...",
+      "[0/3] Verification de Python..."
+    ],
+    "py_not": [
+      "Python not found, installing via winget...",
+      "未找到 Python，正在通过 winget 安装...",
+      "Pythonが見つかりません。wingetでインストール中...",
+      "Python을 찾을 수 없습니다. winget으로 설치 중...",
+      "Python no encontrado, instalando con winget...",
+      "Python introuvable, installation via winget..."
+    ],
+    "py_fail": [
+      "Failed! Install from https://python.org",
+      "安装失败！请手动安装 https://python.org",
+      "失敗！https://python.org から手動インストール",
+      "실패! https://python.org 에서 수동 설치",
+      "Fallo! Instale desde https://python.org",
+      "Echec ! Installez depuis https://python.org"
+    ],
+    "py_inst": [
+      "Installed, refreshing PATH...",
+      "安装完成，正在刷新 PATH...",
+      "インストール完了、PATHを更新中...",
+      "설치 완료, PATH 새로고침 중...",
+      "Instalado, actualizando PATH...",
+      "Installe, actualisation du PATH..."
+    ],
+    "py_ok": [
+      "Python OK",
+      "Python 就绪",
+      "Python OK",
+      "Python 준비 완료",
+      "Python OK",
+      "Python OK"
+    ],
+    "dep": [
+      "[1/3] Installing dependencies...",
+      "[1/3] 安装 Python 依赖...",
+      "[1/3] 依存関係をインストール中...",
+      "[1/3] 의존성 설치 중...",
+      "[1/3] Instalando dependencias...",
+      "[1/3] Installation des dependances..."
+    ],
+    "dep_fail": [
+      "Dependency installation failed",
+      "依赖安装失败",
+      "依存関係のインストールに失敗",
+      "의존성 설치 실패",
+      "Instalacion de dependencias fallida",
+      "Echec de l'installation des dependances"
+    ],
+    "done": [
+      "Done",
+      "完成",
+      "完了",
+      "완료",
+      "Hecho",
+      "Termine"
+    ],
+    "ff_check": [
+      "[2/3] Checking ffmpeg...",
+      "[2/3] 检查 ffmpeg...",
+      "[2/3] ffmpegチェック中...",
+      "[2/3] ffmpeg 확인 중...",
+      "[2/3] Verificando ffmpeg...",
+      "[2/3] Verification de ffmpeg..."
+    ],
+    "ff_not": [
+      "Not found, installing via winget...",
+      "未找到，正在通过 winget 安装...",
+      "見つかりません。wingetでインストール中...",
+      "찾을 수 없습니다. winget으로 설치 중...",
+      "No encontrado, instalando con winget...",
+      "Introuvable, installation via winget..."
+    ],
+    "ff_found": [
+      "Found: ",
+      "已找到: ",
+      "発見: ",
+      "찾음: ",
+      "Encontrado: ",
+      "Trouve: "
+    ],
+    "cfg_check": [
+      "[3/3] Checking config...",
+      "[3/3] 检查配置文件...",
+      "[3/3] 設定ファイルチェック中...",
+      "[3/3] 설정 파일 확인 중...",
+      "[3/3] Verificando configuracion...",
+      "[3/3] Verification de la configuration..."
+    ],
+    "cfg_new": [
+      "Created config.py - edit API key!",
+      "已创建 config.py - 请编辑填入 API Key！",
+      "config.pyを作成 - APIキーを編集してください！",
+      "config.py 생성됨 - API 키를 입력하세요!",
+      "config.py creado - edite la clave API!",
+      "config.py cree - modifiez la cle API !"
+    ],
+    "cfg_exist": [
+      "config.py already exists",
+      "config.py 已存在",
+      "config.py は既に存在します",
+      "config.py 이미 존재함",
+      "config.py ya existe",
+      "config.py existe deja"
+    ],
+    "complete": [
+      "  Setup complete!",
+      "  安装完成！",
+      "  セットアップ完了！",
+      "  설치 완료!",
+      "  Instalacion completa!",
+      "  Installation terminee !"
+    ],
+    "restart": [
+      "  NOTE: Restart terminal or PC before running",
+      "  注意：请重启终端或电脑后再运行",
+      "  注意：実行前に端末またはPCを再起動してください",
+      "  참고: 실행 전 터미널 또는 PC를 다시 시작하세요",
+      "  NOTA: Reinicie la terminal o PC antes de ejecutar",
+      "  NOTE : Redemarrez le terminal ou le PC avant d'executer"
+    ],
+    "step1": [
+      "  1. Edit config.py with API key",
+      "  1. 编辑 config.py 填入 API Key",
+      "  1. config.py にAPIキーを設定",
+      "  1. config.py 에 API 키 입력",
+      "  1. Edite config.py con la clave API",
+      "  1. Modifiez config.py avec la cle API"
+    ],
+    "step2": [
+      "  2. Put MP4 into video folder",
+      "  2. 把 MP4 丢进 video 文件夹",
+      "  2. MP4ファイルをvideoフォルダに入れる",
+      "  2. MP4 파일을 video 폴더에 넣기",
+      "  2. Coloque MP4 en la carpeta video",
+      "  2. Mettez les MP4 dans le dossier video"
+    ],
+    "step3": [
+      "  3. Run run.bat to start",
+      "  3. 运行 run.bat 开始分析",
+      "  3. run.bat を実行して分析開始",
+      "  3. run.bat 실행하여 분석 시작",
+      "  3. Ejecute run.bat para iniciar",
+      "  3. Executez run.bat pour commencer"
+    ]
+  },
+  "run": {
+    "ff_not": [
+      "ffmpeg not found! Run setup first.",
+      "找不到 ffmpeg！请先运行 setup。",
+      "ffmpegが見つかりません！先にsetupを実行してください。",
+      "ffmpeg를 찾을 수 없습니다! 먼저 setup을 실행하세요.",
+      "ffmpeg no encontrado! Ejecute setup primero.",
+      "ffmpeg introuvable ! Executez setup d'abord."
+    ],
+    "done_exit": [
+      "Done! Press Enter to exit",
+      "完成！按回车退出",
+      "完了！Enterキーで終了",
+      "완료! Enter 키를 눌러 종료",
+      "Hecho! Presione Enter para salir",
+      "Termine ! Appuyez sur Entree pour quitter"
+    ],
+    "press_enter": [
+      "Press Enter to exit",
+      "按回车退出",
+      "Enterキーで終了",
+      "Enter 키를 눌러 종료",
+      "Presione Enter para salir",
+      "Appuyez sur Entree pour quitter"
+    ],
+    "no_videos": [
+      "No videos found! Put MP4 into video folder.",
+      "没有视频！请把 MP4 放到 video 文件夹。",
+      "動画が見つかりません！MP4をvideoフォルダに入れてください。",
+      "비디오가 없습니다! MP4를 video 폴더에 넣어주세요.",
+      "No se encontraron videos! Ponga MP4 en la carpeta video.",
+      "Aucune video trouvee ! Mettez les MP4 dans le dossier video."
+    ]
+  }
+}

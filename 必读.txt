@@ -1,0 +1,11 @@
+gui.bat gui.ps1 为整合面板
+lang.ps1 为语言面板
+setup.bat setup.ps1 为安装依赖面板
+run.bat run.ps1 为运行面板
+
+requirements.txt为python所需库
+config.py为API KEY等配置
+run.py为主程序
+
+本项目全开源 QQ1003294905
+逻辑为 用ffmpeg提取视频的音频→OpenAI Whisper做语音转文字→喂给AI总结→生成文件
